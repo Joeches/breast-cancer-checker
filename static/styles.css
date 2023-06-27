@@ -1,0 +1,130 @@
+/* styles.css */
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Main title styles */
+h1 {
+  color: #333;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+/* Sidebar styles */
+.sidebar .sidebar-title {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.sidebar .stButton {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.sidebar .stButton:hover {
+  background-color: #0056b3;
+}
+
+/* Patient input section styles */
+.patient-input {
+  margin-bottom: 20px;
+}
+
+.patient-input .stSlider {
+  width: 100%;
+}
+
+.patient-input .stSlider label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Prediction probabilities section styles */
+.prediction-probabilities {
+  margin-top: 20px;
+}
+
+.prediction-probabilities .barplot {
+  width: 100%;
+  height: 300px;
+}
+
+.prediction-probabilities .barplot .x-axis,
+.prediction-probabilities .barplot .y-axis {
+  font-size: 14px;
+}
+
+.prediction-probabilities .barplot .x-axis .tick text,
+.prediction-probabilities .barplot .y-axis .tick text {
+  fill: #333;
+}
+
+/* Diagnosis result section styles */
+.diagnosis-result {
+  margin-top: 20px;
+}
+
+.diagnosis-result .result-text {
+  color: #333;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.diagnosis-result .benign {
+  color: #28a745;
+}
+
+.diagnosis-result .malignant {
+  color: #dc3545;
+}
+
+/* Dataset information section styles */
+.dataset-information {
+  margin-top: 20px;
+}
+
+.dataset-information .info-title {
+  color: #333;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.dataset-information .info-text {
+  color: #333;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+/* Test conclusion section styles */
+.test-conclusion {
+  margin-top: 20px;
+}
+
+.test-conclusion .conclusion-text {
+  color: #333;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.test-conclusion .contact-info {
+  color: #333;
+  font-size: 14px;
+}
+
+.test-conclusion .contact-info a {
+  color: #007bff;
+}
+
+.test-conclusion .contact-info a:hover {
+  color: #0056b3;
+}
